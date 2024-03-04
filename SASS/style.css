@@ -1,0 +1,273 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+#register {
+  height: 100vh;
+  width: 100%;
+  background: url("../img/subtle-prism.svg");
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.registerC {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #435058;
+  height: 70vh;
+  width: 25vw;
+  border-radius: 10px;
+  box-shadow: 13px 13px 30px rgba(0, 0, 0, 0.5411764706);
+}
+.registerC h2, .registerC .logoutC a, .logoutC .registerC a, .registerC .welcomeC a, .welcomeC .registerC a, .registerC p {
+  margin: 20px;
+  -webkit-text-decoration: underline #DCF763 1px;
+          text-decoration: underline #DCF763 1px;
+  color: #F1F2EE;
+  cursor: default;
+}
+.registerC_form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.registerC_form input, .registerC_form button {
+  margin: 20px;
+  border: none;
+  border-radius: 10px;
+  height: 25px;
+  width: 14vw;
+  padding: 10px;
+}
+.registerC_form button {
+  padding: 0px;
+  width: 9vw;
+  background: #DCF763;
+  color: #283035;
+  cursor: pointer;
+}
+.registerC p {
+  text-decoration: none;
+}
+.registerC p a {
+  color: #f1f2ee;
+  -webkit-text-decoration: underline 1px #DCF763;
+          text-decoration: underline 1px #DCF763;
+}
+
+#login {
+  background: url("../img/bgl.svg");
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.loginC {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #435058;
+  height: 60vh;
+  width: 25%;
+  border-radius: 10px;
+  box-shadow: 13px 13px 30px rgba(0, 0, 0, 0.5411764706);
+}
+.loginC h2, .loginC .logoutC a, .logoutC .loginC a, .loginC .welcomeC a, .welcomeC .loginC a, .loginC p {
+  margin: 20px;
+  -webkit-text-decoration: underline #DCF763 1px;
+          text-decoration: underline #DCF763 1px;
+  color: #F1F2EE;
+  cursor: default;
+}
+.loginC_form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.loginC_form input, .loginC_form button {
+  margin: 20px;
+  border: none;
+  border-radius: 10px;
+  height: 25px;
+  width: 14vw;
+  padding: 10px;
+}
+.loginC_form button {
+  padding: 0px;
+  width: 9vw;
+  background: #DCF763;
+  color: #283035;
+  cursor: pointer;
+}
+.loginC p {
+  text-decoration: none;
+}
+.loginC p a {
+  color: #f1f2ee;
+  -webkit-text-decoration: underline 1px #DCF763;
+          text-decoration: underline 1px #DCF763;
+}
+
+#welcome {
+  background: url("../img/bgl.svg");
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.welcomeC {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #435058;
+  height: 65vh;
+  width: 65vw;
+  border-radius: 10px;
+  box-shadow: 13px 13px 30px rgba(0, 0, 0, 0.5411764706);
+}
+.welcomeC h2, .welcomeC a, .welcomeC .registerC p, .registerC .welcomeC p, .welcomeC .loginC p, .loginC .welcomeC p {
+  margin: 20px;
+  -webkit-text-decoration: underline #DCF763 1px;
+          text-decoration: underline #DCF763 1px;
+  color: #F1F2EE;
+  cursor: default;
+  font-size: 40px;
+}
+.welcomeC_div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.welcomeC_div p {
+  font-size: 35px;
+  color: #f1f2ee;
+  margin: 20px;
+  text-decoration: none;
+}
+.welcomeC_div img {
+  width: 150px;
+}
+.welcomeC a {
+  font-size: 25px;
+}
+.welcomeC a:hover {
+  color: #DCF763;
+  text-decoration: none;
+}
+
+#logout {
+  background: url("../img/bgl.svg");
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logoutC {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #435058;
+  height: 40vh;
+  width: 50vw;
+  border-radius: 10px;
+  box-shadow: 13px 13px 30px rgba(0, 0, 0, 0.5411764706);
+}
+.logoutC h2, .logoutC a, .logoutC .registerC p, .registerC .logoutC p, .logoutC .loginC p, .loginC .logoutC p {
+  margin: 20px;
+  -webkit-text-decoration: underline #DCF763 1px;
+          text-decoration: underline #DCF763 1px;
+  color: #F1F2EE;
+  cursor: default;
+  font-size: 40px;
+}
+.logoutC p {
+  font-size: 35px;
+  color: #f1f2ee;
+  margin: 20px;
+  text-decoration: none;
+}
+.logoutC a {
+  font-size: 25px;
+  cursor: pointer;
+}
+.logoutC a:hover {
+  color: #DCF763;
+  text-decoration: none;
+}
+
+#psswordP {
+  height: 100vh;
+  width: 100%;
+  background: url("../img/bgl.svg");
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.passwordC {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #435058;
+  height: 70vh;
+  width: 25vw;
+  border-radius: 10px;
+  box-shadow: 13px 13px 30px rgba(0, 0, 0, 0.5411764706);
+}
+.passwordC h2, .passwordC .registerC p, .registerC .passwordC p, .passwordC .loginC p, .loginC .passwordC p, .passwordC .welcomeC a, .welcomeC .passwordC a, .passwordC .logoutC a, .logoutC .passwordC a {
+  margin: 20px;
+  -webkit-text-decoration: underline #DCF763 1px;
+          text-decoration: underline #DCF763 1px;
+  color: #F1F2EE;
+  cursor: default;
+}
+.passwordC_form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.passwordC_form input, .passwordC_form button {
+  margin: 20px;
+  border: none;
+  border-radius: 10px;
+  height: 25px;
+  width: 14vw;
+  padding: 10px;
+}
+.passwordC_form button {
+  padding: 0px;
+  height: 6vh;
+  width: 10vw;
+  background: #DCF763;
+  color: #283035;
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */
