@@ -278,7 +278,7 @@
     font-size: 20px;
   }
   .registerC input, .loginC input, .passwordC input{
-    height: 35px;
+    height: 30vh;
     font-size: 15px;
   }
   .registerC button, .loginC button, .passwordC button{
