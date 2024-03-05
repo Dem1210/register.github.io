@@ -271,6 +271,7 @@
   color: #283035;
   cursor: pointer;
 }/*# sourceMappingURL=style.css.map */
+
 @media (min-width: 1290px) {
   .registerC, .loginC, .passwordC{
     height: 80vh;
