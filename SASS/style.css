@@ -271,3 +271,98 @@
   color: #283035;
   cursor: pointer;
 }/*# sourceMappingURL=style.css.map */
+
+@media (min-width: 1290px) {
+  .registerC, .loginC, .passwordC{
+    height: 80vh;
+    font-size: 20px;
+  }
+  .registerC input, .loginC input, .passwordC input{
+    height: 35px;
+    font-size: 15px;
+  }
+  .registerC button, .loginC button, .passwordC button{
+    height: 30px;
+    font-size: 15px;
+  }
+}
+@media (min-width: 811px) and (max-width: 1289px) {
+  a,p,h2{
+    text-align: center;
+  }
+
+  .registerC, .loginC, .passwordC{
+    height: 85vh;
+    width: 40vw;
+    font-size: 20px;
+    text-align: center;
+  }
+  .registerC input, .loginC input, .passwordC input{
+    height: 40px;
+    width: 20vw;
+    font-size: 15px;
+  }
+  .registerC button, .loginC button, .passwordC button{
+    height: 40px;
+    width: 15vw;
+    font-size: 15px;
+  }
+}
+@media (min-width: 600px) and (max-width: 810px) {
+  a,p,h2{
+    text-align: center;
+  }
+  .registerC, .loginC, .passwordC{
+    height: 85vh;
+    width: 55vw;
+    font-size: 20px;
+  }
+  .registerC input, .loginC input, .passwordC input{
+    height: 40px;
+    width: 30vw;
+    font-size: 20px;
+  }
+  .registerC button, .loginC button, .passwordC button{
+    height: 40px;
+    width: 20vw;
+    font-size: 17px;
+  }
+  .welcomeC{
+    width: 80%;
+  }
+  .welcomeC_div img{
+    display: none;
+  }
+  .logoutC{
+    height: 40vh;
+  }
+}
+@media (min-width: 0px) and (max-width: 599px) {
+  a,p,h2{
+    text-align: center;
+  }
+  .registerC, .loginC, .passwordC{
+    height: 85vh;
+    width: 75vw;
+    font-size: 20px;
+  }
+  .registerC input, .loginC input, .passwordC input{
+    height: 40px;
+    width: 40vw;
+    font-size: 20px;
+  }
+  .registerC button, .loginC button, .passwordC button{
+    height: 40px;
+    width: 20vw;
+    font-size: 17px;
+  }
+  .welcomeC{
+    width: 80%;
+  }
+  .welcomeC_div img{
+    display: none;
+  }
+  .logoutC{
+    height: 40vh;
+  }
+}
