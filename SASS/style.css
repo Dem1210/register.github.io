@@ -313,7 +313,7 @@
     text-align: center;
   }
   .registerC, .loginC, .passwordC{
-    height: 85vh;
+    height:30vh;
     width: 55vw;
     font-size: 20px;
   }
